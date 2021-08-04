@@ -1,0 +1,27 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.vl {
+    border-left: 3px solid green;
+    height: 130px;
+}
+
+.note {
+    width: 20px;
+    border-left: 1px solid black;
+    border-right: none;
+    /*border-right: 1px solid black;*/
+    border-top: none;
+    border-bottom: none;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.string {
+    border: none;
+}
