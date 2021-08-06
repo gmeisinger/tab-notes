@@ -1,21 +1,25 @@
 html,
 body {
-    margin: 0;
-    padding: 0;
+    margin: 10px;
+    padding: 10px;
+}
+
+.tab {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 18px;
+}
+
+.tab-row {
+    border-bottom: 1px solid red;
+    border-top: 1px solid red;
 }
 
 .vl {
-    border-left: 3px solid green;
-    height: 130px;
+    background-color: black;
 }
 
-.note {
+.note-input {
     width: 20px;
-    border-left: 1px solid black;
-    border-right: none;
-    /*border-right: 1px solid black;*/
-    border-top: none;
-    border-bottom: none;
 }
 
 table {
