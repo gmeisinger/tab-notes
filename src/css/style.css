@@ -1,31 +1,40 @@
 html,
 body {
-    margin: 10px;
-    padding: 10px;
+	margin: 10px;
+	padding: 10px;
+}
+
+#errors {
+	background: #c00;
+	color: #fff;
+	display: none;
+	margin: -20px -20px 20px;
+	padding: 20px;
+	white-space: pre-wrap;
 }
 
 .tab {
-    font-family: "Courier New", Courier, monospace;
-    font-size: 18px;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 18px;
 }
 
 .tab-row {
-    border-bottom: 1px solid red;
-    border-top: 1px solid red;
+	border-bottom: 1px solid red;
+	border-top: 1px solid red;
 }
 
 .vl {
-    background-color: black;
+	background-color: black;
 }
 
 .note-input {
-    width: 20px;
+	width: 20px;
 }
 
 table {
-    border-collapse: collapse;
+	border-collapse: collapse;
 }
 
 .string {
-    border: none;
+	border: none;
 }
